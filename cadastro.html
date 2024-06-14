@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./styles/default.css">
+    <link rel="stylesheet" href="./styles/cadastro.css">
+    <script src="./scripts/cadastro.js" defer type="module"></script>
+</head>
+
+<body>
+    <main>  
+        <form id="form" method="post" class="form" action="">
+            <legend class="form--subtitle">Cadastro</legend>
+            <label class="input-wrapper" for="nome"> Nome completo
+                <input id="nome" type="text" class="input" name="nome" required>
+             </label>
+            <label class="input-wrapper" for="image"> URL da imagem
+                <input id="imagem" type="text" class="input" name="imagem" required value=" ">
+             </label>
+            <label class="input-wrapper" for="email"> E-mail
+                <input id="email" type="email" name="email"  class="input"  required>
+            </label>
+            <label class="input-wrapper" for="senha"> Senha
+                <input id="senha" type="password" name="senha" class="input" required>
+            </label>
+            <label class="input-wrapper" for="confirmar-senha"> Confirmar senha
+                <input id="confirmar-senha" type="password"  class="input" required>
+            </label>
+            <input type="submit" class="input" value="Cadastrar">
+        </form>
+    </main>
+</body>
+
+</html>
