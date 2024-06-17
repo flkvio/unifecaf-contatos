@@ -21,8 +21,8 @@ const checarUsuario = function (usuario, cadastrados) {
     if (
       usuario.email == cadastrado.email &&
       usuario.senha == cadastrado.senha
-    ) {        
-        window.location.assign("./lista-de-contatos.html");
+    ) {
+      window.location.assign("../lista-de-contatos.html");
     } else {
       console.log("Errado");
     }
